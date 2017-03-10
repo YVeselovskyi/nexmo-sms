@@ -9,6 +9,8 @@
   "author": "Yaroslav Veselovskyi",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nexmo": "^1.2.0"
   }
 }

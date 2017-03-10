@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Propeller Basic HTML Template</title>
+    <title>SMS-sender</title>
 
     <!-- Bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -22,8 +22,17 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Hello, world!</h1>
-            <button class="btn pmd-ripple-effect btn-primary" type="button"> Primary </button>
+            <h1>Send sms to anybody!</h1>
+            <p>Enter a number, begins with a country code</p>
+            <div class="form-group">
+                <label for="usr">Number:</label>
+                <input type="tel" class="form-control" id="usr" name="number">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Text:</label>
+                <input type="text" class="form-control" id="pwd" name="text">
+            </div>
+            <button class="btn pmd-ripple-effect btn-primary" type="button" value="Send SMS"> Primary </button>
         </div>
     </div>
 </div>
@@ -35,5 +44,6 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/propeller.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
