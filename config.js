@@ -1,5 +1,5 @@
 module.exports = {
-    'apiKey': '0cb9e909',
-    'apiSecret': 'ecb4a7be0c1edab9',
+    'apiKey': process.env.API_KEY,
+    'apiSecret': process.env.API_SECRET,
     'number': process.env.NUMBER
 }
